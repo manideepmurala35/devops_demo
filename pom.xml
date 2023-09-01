@@ -28,9 +28,9 @@
                 <sonar.host.url>
                   http://localhost:9099
                 </sonar.host.url>
-                <sonar.token>
+                <sonar.login>
                    sqp_8cd6e25df2d1ea8c78a2a1a69e5e0a0498560ded
-                </sonar.token>
+                </sonar.login>
                  <!--sonar.login>admin</sonar.login>
                 <sonar.password>Manideep@358</sonar.password> --> 
             </properties>
