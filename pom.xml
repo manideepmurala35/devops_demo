@@ -31,8 +31,8 @@
                 <sonar.token>
                    sqp_8cd6e25df2d1ea8c78a2a1a69e5e0a0498560ded
                 </sonar.token>
-                 <sonar.login>admin</sonar.login>
-                <sonar.password>Manideep@358</sonar.password> 
+                 <!--sonar.login>admin</sonar.login>
+                <sonar.password>Manideep@358</sonar.password> --> 
             </properties>
         </profile>
      </profiles>
