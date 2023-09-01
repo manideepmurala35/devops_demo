@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>my-app</name>
-  <!-- FIXME change it to the project's website -->
+ 
   <url>http://www.example.com</url>
 
   <properties>
@@ -17,8 +17,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-
-    <profiles>
+     <profiles>
         <profile>
             <id>sonar</id>
             <activation>
@@ -29,33 +28,33 @@
                 <sonar.host.url>
                   http://localhost:9099
                 </sonar.host.url>
-		<sonar.token>
-		    sqp_82aa70e8d5054218324dd6446b38334b9d91de49
-		</sonar.token>
-		<!-- sonar.login>admin</sonar.login -->
-		<!-- sonar.password>Manideep@358</sonar.password --> 
+                <sonar.token>
+                   sqp_8cd6e25df2d1ea8c78a2a1a69e5e0a0498560ded
+                </sonar.token>
+                <!-- <sonar.login>admin</sonar.login>
+                <sonar.password>Manideep@358</sonar.password> -->
             </properties>
         </profile>
      </profiles>
 
+
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-<dependency>
-    <groupId>org.sonarsource.scanner.maven</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.9.1.2184</version>
-</dependency>
+   <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+   <dependency>
+       <groupId>org.sonarsource.scanner.maven</groupId>
+       <artifactId>sonar-maven-plugin</artifactId>
+       <version>3.9.1.2184</version>
+  </dependency>
 
-
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.12</version>
-      <scope>test</scope>
-    </dependency>
+   <dependency>
+     <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+   </dependency>
   </dependencies>
 
+    
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
